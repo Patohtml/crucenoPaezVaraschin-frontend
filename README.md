@@ -7,4 +7,5 @@ Usuario = Nico Spk
 -
 Carrito = EmiVar2007
 -
-Landing = Pato
+Landing = Pato y Nico Spk
+-
