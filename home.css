@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(21, 21, 24);
+}
+
+.header{
+    border-bottom: 3px solid rgb(24, 15, 105);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.homeTitle {
+    color: rgb(240, 241, 243);
+    border: 2px solid rgb(24, 15, 105);
+    padding: 12px;
+    margin: 14px;
+    max-width: 210px;
+    font-family: "Dongle", sans-serif; 
+    font-size: 2.8rem;
+}
+
+.li{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 1px solid rgb(42, 50, 165);
+    padding: 5px;
+}
+
+.homeList {
+    display: flex;
+    margin-left: 30px;
+    list-style-type: none;
+    margin-right: 2rem;
+    column-gap: 1rem;
+}
