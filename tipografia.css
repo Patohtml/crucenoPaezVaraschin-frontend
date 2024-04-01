@@ -1,0 +1,28 @@
+
+
+
+@font-face {
+    font-family: "Nico";
+    src: url(tipografias/Roboto-Regular.ttf) format("truetype");
+    font-weight: 500;
+    font-style: oblique 10deg;
+    
+}
+
+@font-face {
+    font-family: "Nico";
+    src: url(tipografias/Roboto-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: oblique 10deg;
+    
+}
+
+@font-face {
+    font-family: "Nico";
+    src: url(tipografias/Roboto-Light.ttf) format("truetype");
+    font-weight: 200;
+    font-style: oblique 10deg;
+}
+
+
+

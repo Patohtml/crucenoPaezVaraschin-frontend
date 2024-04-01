@@ -1,0 +1,10 @@
+.Titulo {
+    color: black;
+    font-family: sans-serif;
+    font-size: 100px;
+    font-weight: 500; 
+    font-style: oblique 10deg;
+    text-align: center ;
+    letter-spacing: 9px;
+}   
+
