@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: #242424;
+}
+.header{
+    background-color: rgb(15, 163, 177);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90px;
+    padding: 5px 10%;
+    border-bottom: 3px solid rgb(247, 160, 114);
+    box-shadow: 0 0 1rem black;
+}
+
+.homeLogo img{
+    height: 70px;
+    height: 65px;
+    width: auto;
+    cursor: pointer;
+}
+
+.homeLogo{
+    margin-right: auto;
+    margin-right: 1300px;
+    position: absolute;
+}
+
+.homeLogo img:hover{
+    transform: scale(0.9);
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.navBar label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: azure;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.homeLinks li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+.homeLinks li:hover{
+    transform: scale(1.1);
+}
+.homeLinks a{
+    font-size: 18px;
+    color: rgb(249, 247, 243);
+    text-decoration: none;
+}
+.homeLinks a:hover{
+    color: rgb(237, 222, 164);
+}
+.homeBtn button{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background-color: rgb(181, 226, 250);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+.homeBtn button:hover{
+    background-color: rgb(237, 222, 164);
+    color: black;
+    transform: scale(1.1);
+}
+
+.homeBar{
+    position: absolute;
+    margin-right: 1430px;
+}
+
+.container {
+	padding: 2rem;
+}
+.homeText{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-left: 6rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(247, 160, 114);
+    padding: 10px;
+    box-shadow: 0 0 1rem black;
+
+}
+
+.homeTexts{
+    padding-bottom: 30px;
+}
+
+.homeDashbr{
+    position: absolute;
+    float: left;
+    margin-right: 1400px;
+    align-items: center;
+}
+
+.homeDashbr label{
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.footerCont{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: rgb(10, 9, 8);
+    padding: 80px 0;
+}
+
+.footerRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerLinks{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footerLinks h4{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(247, 160, 114);
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footerLinks ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footerLinks ul li a:hover{
+    color: white;
+    padding-left: 6px;
+}
+
+.footerLinksSocial a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.footerLinksSocial a:hover{
+    background-color: rgb(247, 160, 114)
+}
+
+.footerLinks li{
+    list-style-type: none;
+}
