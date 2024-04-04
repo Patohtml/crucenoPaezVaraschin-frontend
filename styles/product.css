@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+
+.header{
+    background-color: rgb(15, 163, 177);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90px;
+    padding: 5px 10%;
+    border-bottom: 3px solid rgb(247, 160, 114);
+    box-shadow: 0 0 1rem black;
+}
+
+body{
+    background-color: #242424;
+}
+
+.homeLogo img{
+    height: 65px;
+    width: auto;
+    cursor: pointer;
+}
+
+.homeLogo{
+    margin-right: 1300px;
+    position: absolute;
+}
+
+.homeLogo img:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.homeLinks li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.homeLinks li:hover{
+    transform: scale(1.1);
+}
+
+.homeLinks a{
+    font-size: 18px;
+    color: rgb(249, 247, 243);
+    text-decoration: none;
+
+}
+
+.homeLinks a:hover{
+    color: rgb(237, 222, 164);
+}
+
+.homeBtn button{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background-color: rgb(181, 226, 250);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+.homeBtn button:hover{
+    background-color: rgb(237, 222, 164);
+    color: black;
+    transform: scale(1.1);
+}
+
+.footerCont{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: rgb(10, 9, 8);
+    padding: 80px 0;
+}
+
+.footerRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerLinks{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footerLinks h4{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(247, 160, 114);
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footerLinks ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footerLinks ul li a:hover{
+    color: white;
+    padding-left: 6px;
+}
+
+.footerLinksSocial a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.footerLinksSocial a:hover{
+    background-color: rgb(247, 160, 114)
+}
+
+.footerLinks li{
+    list-style-type: none;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+}
+
+.searchBar{
+    --padding: 12px;
+
+    align-items: center;
+    padding: var(--padding);
+    background-color: rgb(181, 226, 250);
+    border-radius: 28px;    
+    width: max-content;
+}
+
+.searchInput{
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    margin-left: 14px;
+    outline: none;
+    background: transparent;
+    border: none;
+    width: 400px;
+}
+
+.searchInput::placeholder{
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.mainCards{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.cardSpace{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cardProduct {
+    max-width: 12em;
+    background-color: rgb(51, 53, 51);
+    padding: 1em;
+    box-shadow: 0 5px 5px black;
+    font-family: "Nunito", sans-serif;
+    color: white;
+}
+
+.cardProduct img {
+    max-width: 100%;
+}
+
+.cardProduct h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+    font-weight: bold;
+}
+.cardProduct div {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardProduct button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardProduct:hover {
+    background-color: lightslategray;
+    color: #fff;
+}
+.cardProduct:hover button {
+    color: #000;
+    background-color: #fff;
+}
+
