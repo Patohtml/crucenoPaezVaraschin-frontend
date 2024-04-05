@@ -28,7 +28,7 @@ body{
 }
 
 .homeLogo{
-    margin-right: 1300px;
+    margin-right: 75%;
     position: absolute;
 }
 
@@ -155,6 +155,11 @@ body{
     background-color: rgb(181, 226, 250);
     border-radius: 28px;    
     width: max-content;
+    transition: all 0.2s ease;
+}
+
+.searchBar:hover{
+    transform: scale(1.1);
 }
 
 .searchInput{
@@ -165,6 +170,11 @@ body{
     outline: none;
     background: transparent;
     border: none;
+    width: 80px;
+    transition: all 0.3s ease ;
+}
+
+.searchInput:focus{
     width: 400px;
 }
 
@@ -176,24 +186,30 @@ body{
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .cardSpace{
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
 }
 
 .cardProduct {
     max-width: 12em;
     background-color: rgb(51, 53, 51);
     padding: 1em;
+    border-radius: 12px;
     box-shadow: 0 5px 5px black;
     font-family: "Nunito", sans-serif;
     color: white;
+    transition: all 0.3s ease;
 }
 
 .cardProduct img {
     max-width: 100%;
+    border-radius: 25px;
 }
 
 .cardProduct h4 {
@@ -218,13 +234,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .cardProduct:hover {
-    background-color: lightslategray;
-    color: #fff;
+    background-color: rgb(237, 222, 164);
+    color: black;
+    transform: scale(1.1);
 }
 .cardProduct:hover button {
     color: #000;
-    background-color: #fff;
+    background-color: rgb(247, 160, 114);
 }
 
+.cardSpace:hover{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
