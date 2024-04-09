@@ -14,7 +14,7 @@
 <body>
     <header class="header">
         <div class="homeLogo">
-            <img src="./multimedia/5346875.png" alt="Image No Found">
+            <img src="./5346875.png" alt="Image No Found">
         </div>
         <nav>
             <ul class="homeLinks">
@@ -25,15 +25,12 @@
         </nav>
         <a href="#" class="homeBtn"><button>Account</button></a>
     </head>
-        <!-- Icono del carrito -->
         <div class="cart-icon divCarrito">
             <i class="bi bi-cart"></i>
         </div>
-        <!-- Contenedor del carrito -->
         <div class="cart-container">
             <h3>Carrito de Compras</h3>
             <div class="cart-items">
-                <!-- Aquí se añadirán los elementos del carrito -->
             </div>
             <div class="cart-total">
                 Total: $0
@@ -41,13 +38,10 @@
             <button class="comprar-btn">Comprar</button>
         </div>
     </header>
-    <!-- Script para mostrar/ocultar el carrito -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const cartIcon = document.querySelector('.cart-icon');
             const cartContainer = document.querySelector('.cart-container');
-
-            // Mostrar u ocultar el carrito al hacer clic en el icono
             cartIcon.addEventListener('click', function() {
                 cartContainer.style.display = cartContainer.style.display === 'block' ? 'none' : 'block';
             });

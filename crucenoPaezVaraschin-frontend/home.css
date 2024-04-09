@@ -28,7 +28,7 @@ body{
 
 .homeLogo{
     margin-right: auto;
-    margin-right: 1300px;
+    margin-right: 80%;
     position: absolute;
 }
 
@@ -294,7 +294,6 @@ h1 {
     cursor: pointer;
     margin-top: 20px;
 }
-
 .divCarrito {
     margin-left: 20px;
 }
@@ -314,4 +313,12 @@ h1 {
 }
 .cart-item {
     margin-bottom: 5px;
+}
+.cart-icon {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.cart-icon:active {
+    transform: scale(1.3);
 }
