@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(150deg, #1B2631 , #2471A3);
+    height: 100vh;
+}   
+
+.R{
+    margin-top: 20px;
+}
+
+.Formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Transform es para poder rotarlo, moverlo en general. en el primer valor: Esto indica que
+     el elemento se moverá hacia la izquierda o hacia la derecha en un 50% de su anchura original. El segundo valor es para moverlo arriba o abajo */
+    width: 400px; /* se utiliza para controlar el tamaño horizontal de los elementos en una página web */
+    background: white;
+    border-radius: 10px;
+}
+
+.Formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.Apellido input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border-radius: 1rem;
+    margin: 18px 0;
+    margin-bottom: 2px;
+}
+
+.Lastname input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border-radius: 1rem;
+    margin: 18px 0;
+    
+    
+    
+}
+
+.Formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .Email{
+    position relative
+    border-bottom: 2px solid ;
+    margin: 30px 0;
+}
+
+.Email input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border-radius: 1rem;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #E74C3C;
+    border-radius: 25px; /*Esto es el radio del boton, le da una curvatura */
+    font-size: 18px; /* Es para modificar el tamaño de la fuente */
+    color: white; /*color de el texto del boton */
+    cursor: pointer;
+}
+
+.Recordar{
+    margin: -5px 0 20px 5px;
+    color: blue;
+}
+
+.Registrarse{
+    margin: 30px 0; /*Esto ya lo sabes nico, pero si pones un padding afecta todo
+    si pones los cuatro afecta a Top, Right, button y left. Cuando pones dos el primero es vertical y el segundo en horizaontal */
+    
+
+}
+
+.Inicio{
+    margin: 0 0 30px 0;
+}
