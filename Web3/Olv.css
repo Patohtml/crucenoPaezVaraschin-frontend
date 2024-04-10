@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(to right, #78281F, #F7DC6F);
+    font-family: sans-serif;
+    border: solid black;
+    border-radius: 10px;
+    width: 730px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.Cabeza{
+    padding-left: 55px;
+    font-family: sans-serif;
+}
+
+.Parrafo{
+    padding-left: 130px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.Link{
+    margin-left: 200px;
+    padding-bottom: 80px;
+}
+
+.Mail{
+    padding-left: 180px;
+}
+
+.Todo{
+    background: white;
+}
+
