@@ -190,6 +190,7 @@ body{
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
+    color: rgb(242, 244, 245);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -200,6 +201,7 @@ h1 {
 
 .cart {
     list-style-type: none;
+    color: #eee;
     padding: 0;
 }
 
@@ -221,20 +223,23 @@ h1 {
     flex: 1;
     margin-left: 15px;
 }
-
+.item-total{
+    color: #eee;
+}
 .item-name {
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: #faf5f5;
 }
 
 .item-price {
     font-size: 16px;
-    color: #777;
+    color: #f5f1f1;
 }
 
 .item-quantity {
     display: flex;
+    color: #eee;
     align-items: center;
     margin-top: 10px;
 }
@@ -264,11 +269,18 @@ h1 {
 
 .cart-total {
     display: flex;
+    color: #eee;
     justify-content: flex-end;
     align-items: center;
     padding-top: 20px;
 }
-
+.cart-total1 {
+    display: flex;
+    color: #000000;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+}
 .total-label {
     font-size: 18px;
     font-weight: bold;
@@ -278,7 +290,7 @@ h1 {
 .total-amount {
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: #fdfafa;
 }
 
 .btn {
@@ -551,23 +563,24 @@ h1 {
     .item-name {
         font-size: 18px;
         font-weight: bold;
-        color: #333;
+        color: #faf7f7;
     }
     
     .item-price {
         font-size: 16px;
-        color: #777;
+        color: #f1eded;
     }
     
     .item-quantity {
         display: flex;
+        color: #eee;
         align-items: center;
         margin-top: 10px;
     }
     
     .quantity-btn {
         background-color: #eee;
-        color: #333;
+        color: #f0e9e9;
         border: none;
         padding: 5px 10px;
         cursor: pointer;
@@ -590,6 +603,7 @@ h1 {
     
     .cart-total {
         display: flex;
+        color: #eee;
         justify-content: flex-end;
         align-items: center;
         padding-top: 20px;
@@ -604,7 +618,7 @@ h1 {
     .total-amount {
         font-size: 18px;
         font-weight: bold;
-        color: #333;
+        color: #fcf9f9;
     }
     
     .btn {
@@ -701,12 +715,10 @@ h1 {
     .homeLinks{
         display: flex;
         column-gap: 25px;
-
     }
-    .homeLinks li{
-        list-style: none;
-        display: inline-block;
-        padding: 0 20px;
+    .homeLinks li {
+        display: block;
+        padding: 10px 0;
     }
     .homeLinks li:hover{
         transform: scale(1.1);
@@ -743,6 +755,7 @@ h1 {
     
     .container {
         padding: 2rem;
+        
     }
     .homeText{
         display: inline-block;
@@ -892,6 +905,7 @@ h1 {
     
     .item-quantity {
         display: flex;
+        color: #eee;
         align-items: center;
         margin-top: 10px;
     }
@@ -935,7 +949,7 @@ h1 {
     .total-amount {
         font-size: 18px;
         font-weight: bold;
-        color: #333;
+        color: #f7f2f2;
     }
     
     .btn {
