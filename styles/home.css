@@ -97,7 +97,7 @@ body{
 
 .slider {
 	display: flex;
-    aspect-ratio: 32 / 19;
+    aspect-ratio: 16 / 9;
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	scroll-behavior: smooth;
@@ -142,8 +142,7 @@ body{
     color: #fff;
     font-family: "Kanit", sans-serif;
     font-weight: 800;
-    font-size: 45px;
-    margin-left: 6rem;
+    font-size: 40px;
     border: none;
     border-radius: 5px;
     background-color: rgb(247, 160, 114);
@@ -152,8 +151,46 @@ body{
 
 }
 
+.homeTextos{
+    display: flex;
+    justify-content: center;
+}
+
 .homeTexts{
     padding-bottom: 30px;
+}
+
+.Cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.cardsCont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.CardIm{
+    border: solid 3px rgb(237, 222, 164);
+    border-radius: 50px;
+    padding: 6px;
+    background-color: rgb(237, 222, 164);
+    box-shadow: 0 0 1rem black;
+    transition: all 0.3s;
+}
+
+.CardIm img{
+    border-radius: 50px;
+    max-width: 180px;
+}
+
+.CardIm:hover{
+    transform: scale(1.1);
 }
 
 .homeDashbr{
