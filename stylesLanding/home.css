@@ -86,7 +86,7 @@ body{
 }
 
 .container {
-	padding: 2rem;
+	padding: 3rem;
 }
 
 .slider-wrapper {
@@ -160,6 +160,18 @@ body{
     padding-bottom: 30px;
 }
 
+.homeTextGame{
+    padding: 25px;
+}
+
+.homeTextGame h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(237, 222, 164);
+
+}
+
 .Cards{
     display: flex;
     justify-content: center;
@@ -182,6 +194,12 @@ body{
     background-color: rgb(237, 222, 164);
     box-shadow: 0 0 1rem black;
     transition: all 0.3s;
+}
+
+.CardIm h3{
+    display: flex;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
 }
 
 .CardIm img{
