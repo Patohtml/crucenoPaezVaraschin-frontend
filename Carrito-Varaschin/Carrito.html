@@ -78,20 +78,28 @@
         <ul class="cart">
             <li class="cart-item">
                 <span class="item-name">Producto 1</span>
-                <span class="item-price">$10.00</span>
-                <span class="item-quantity">2</span>
-                <span class="item-total">$20.00</span>
+                <div class="quantity">
+                <button class="subtract-btn">-</button>
+                <span class="item-quantity">1</span>
+                <button class="add-btn">+</button>
+        </div>
+        <span class="item-totall">$10.00</span>
+        <button class="remove-btn">Eliminar</button>
             </li>
             <li class="cart-item">
                 <span class="item-name">Producto 2</span>
-                <span class="item-price">$15.00</span>
+                <div class="quantity">
+                <button class="subtract-btn">-</button>
                 <span class="item-quantity">1</span>
-                <span class="item-total">$15.00</span>
+                <button class="add-btn">+</button>
+        </div>
+            <span class="item-total">$15.00</span>
+            <button class="remove-btn">Eliminar</button>
             </li>
         </ul>
         <div class="cart-total">
             <span class="total-label">Total:</span>
-            <span class="total-amount">$35.00</span>
+            <span class="total-amount"></span>
         </div>
         <a href="#" class="btn">Comprar</a>
     </div>
