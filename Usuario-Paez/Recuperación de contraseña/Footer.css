@@ -1,0 +1,26 @@
+footer{
+    width: 100%;
+    position: fixed; /* se utiliza para poner un elemento de forma fija dentro de la ventana gráfica del navegador.
+                    Esto significa que se va a quedar quieto en la pantalla aunque vayamos para aabajo o arriva en la pagina*/ 
+    bottom: 0;
+    background: linear-gradient(150deg, black, rgb(48, 47, 47));
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    
+}
+
+a{
+    padding-top: 16px;
+    padding-left: 5px;
+}
+
+.Cookies{
+    color: white;
+    padding-left: 10px;
+    font-family: Nunito;
+}
+
+.Privacidad{
+    font-family: Nunito;
+}
+

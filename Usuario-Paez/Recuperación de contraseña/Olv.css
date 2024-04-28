@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to Right, #17202A, #5DADE2);
+}
+
+.y{
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #010101;
+    background: conic-gradient(from 135deg, #010101, #0B3170);
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.centeredContainer {
+    border: 3px;
+    border-radius: 5px;
+    padding: 3rem;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.Cuenta{
+    margin-bottom: 30px;
+}
+
+input[type="button"]{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    font-family: sans-serif;
+    margin-left: 144px;
+    cursor: pointer; /*para que el mouse habra la manito cuando este sobre el boton*/
+    margin-left: 214px;
+    background-color: black; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    font-weight: bold;
+    transition:  0.6s ease; /* Añadimos la propiedad transition */
+;
+
+}
+
+input[type="button"]:hover {
+    background-color: grey; /* Color de fondo del botón al pasar el mouse */
+}
+
+/* UNIDADES DE MEDIDA*/
+/* em: Lo que hace es que se medida es igual que la medida que tiene su elemento padre/*
+/*rem: los mismo que em, la diferencia que en vez de buscar en el elemento padre busca en el elemento raiz*/
+/*vh: es el alto que tenemos disponible en la vista, si yo agrando la pantalla va a ser esa mitad, si yo la hago mas pequeña va a ser esa mitad.*/
+/*vw: es el ancho que tenemos disponible en la vista, si yo agrando la pantalla va a ser esa mitad, si yo la hago mas pequeña va a ser esa mitad.
